@@ -15,11 +15,9 @@ body {
 
 }
 
-/*position top*/
 
-.p-t-1 {
-    top: -0.5rem;
-}
+
+
 
 /*position right*/
 
@@ -35,7 +33,22 @@ body {
     right: 0.5rem;
 }
 
-/*position negative*/
-.p-t-n-1 {
+/*position top negative*/
+.p-t-n-4 {
     top: -1rem;
+}
+.p-t-n-2 {
+    top: -0.5rem;
+}
+/*height*/
+.h-vh-2{
+    height: 20vh;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar{
+    width: 1rem;
+}
+::-webkit-scrollbar-track{
+    background: black;
 }
