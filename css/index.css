@@ -14,6 +14,7 @@ body {
 
 
 }
+/* margin negative*/
 
 
 
@@ -32,7 +33,16 @@ body {
 .p-r-2 {
     right: 0.5rem;
 }
-
+/*position left*/
+.p-lf-0{
+    left: 0;
+}
+.p-lf-1{
+    left:10%;
+}
+.p-lf-2{
+    left:20%
+}
 /*position top negative*/
 .p-t-n-4 {
     top: -1rem;
@@ -40,15 +50,42 @@ body {
 .p-t-n-2 {
     top: -0.5rem;
 }
+.p-t-1{
+    top:10%
+}
+.p-t-2{
+    top:20%;
+}
+.p-t-7{
+    top:70%
+}
+.p-t-8{
+    top:80%
+}
+.p-t-9{
+    top:90%;
+}
+.p-t-10{
+    top:100%;
+}
 /*height*/
 .h-vh-2{
     height: 20vh;
 }
-
+.h-lg{
+    height: 20rem;
+}
+/*position fixed*/
+.t-0{
+    top:0;
+}
 /*scroll bar*/
 ::-webkit-scrollbar{
     width: 1rem;
 }
 ::-webkit-scrollbar-track{
-    background: black;
+    background: rgb(212, 22, 22);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(121, 121, 121);
 }
