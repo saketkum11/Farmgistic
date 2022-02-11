@@ -84,7 +84,7 @@ body {
     width: 1rem;
 }
 ::-webkit-scrollbar-track{
-    background: rgb(212, 22, 22);
+    background: rgb(240, 240, 240);
 }
 ::-webkit-scrollbar-thumb{
     background: rgb(121, 121, 121);
