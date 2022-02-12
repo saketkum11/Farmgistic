@@ -37,3 +37,7 @@
 .r-6{
     right: 1.5rem;
 }
+/*z-index*/
+.z-index{
+   z-index: 1;
+}
