@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://webkit-ui.netlify.app/style.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/component/product/product.css">
     <script src="https://kit.fontawesome.com/85de537a36.js" crossorigin="anonymous"></script>
     <title>Farmgistic</title>
 </head>
 
 <body>
-    <div class="h-100">
+    <div class="h-100 product">
 
 
         <!--- Navigation bar -->
@@ -20,6 +21,11 @@
             <div class="wt-80  m-auto  flex items-center">
                 <div class="text-xm">
                     <a href="/index.html" class="text-dec text-color-0 text-m">Farmgistic</a>
+                </div>
+                <div class="flex items-center justify-even m-lf">
+                    <input type="search" placeholder="search"
+                        class="pd-y-3 pd-x-5 rounded-L border-none text-center outline-none">
+                    <i class="fa-solid fa-magnifying-glass bg-black-0 text-color-9 rounded-L pd-3 text-xm"></i>
                 </div>
                 <div class="m-lf">
 
@@ -59,17 +65,113 @@
         </header>
 
 
-        <main class="wt-80 m-auto ">
-            
-            <!---filter-->
-            <div class="filter-section">
+        <main class="flex  ">
+
+            <!---product-filter-->
+            <div class="wt-20 h-vh-100 bg-black-2 text-color-9 position-fixed">
+                <div class="flex flex-column items-start  pd-8 ">
+                    <!---filter head-->
+                    <div class="flex justify-btw wt-100">
+                        <div class="text-s text-bold">
+                            <span>Filter</span>
+                        </div>
+                        <div class="text-s text-bold">
+                            <span>clear</span>
+                        </div>
+                    </div>
+
+
+                    <!---filter-price-range-->
+                    <div class="wt-100">
+                        <div class="text-s text-bold">
+                            <span>Price</span>
+                        </div>
+                        <div class="text-s text-bold wt-100 flex justify-btw">
+                            <span>0</span>
+                            <span>50</span>
+                            <span>100</span>
+                        </div>
+                        <div class="wt-100">
+                            <input type="range" name="" class="wt-100" id="">
+                        </div>
+                    </div>
+
+
+                    <!---filter with  categories-->
+                    <div>
+                        
+                    </div>
+                    <div class="text-s text-bold">
+                        <span>Categories</span>
+                    </div>
+                    <div>
+                        <div class="">
+                            <input type="checkbox" name="" id="">
+                            <label for="">Fruits</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <label for="">Grains</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <label for="">Egg & Meat</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <label for="">Vegetables</label>
+                        </div>
+                    </div>
+
+                    <!---Ratings-->
+                    <div class="text-s text-bold">
+                        <span>Ratings</span>
+                    </div>
+                    <div>
+                        <div>
+                            <input type="radio" name="rating" id="">
+                            <label for="">4 stars & above</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="">
+                            <label for="">3 stars & above</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="">
+                            <label for="">2 stars & above</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="">
+                            <label for="">1 stars & above</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="">
+                            <label for="">0 stars & above</label>
+                        </div>
+
+                    </div>
+                    <!---filter with sort-->
+                    <div class="text-s text-bold">
+                        <span>Sort by</span>
+                    </div>
+                    <div>
+                        <div>
+                            <input type="radio" name="price" id="">
+                            <label for="">Price - Low to High</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="price" id="">
+                            <label for="">Price - High to Low</label>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-            <!---Product-content-->
-            <div class="product-content">
-
+            <!---Product-content
+           <div class=" wt-80 bg-red-9">
+                 
             </div>
-           
+           -->
 
         </main>
     </div>
