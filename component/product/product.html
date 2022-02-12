@@ -65,13 +65,13 @@
         </header>
 
 
-        <main class="flex  ">
+        <main class="flex h-vh-100 ">
 
             <!---product-filter-->
-            <div class="wt-20 h-vh-100 bg-black-2 text-color-9 position-fixed">
-                <div class="flex flex-column items-start  pd-8 ">
+            <div class="wt-20  bg-black-2 text-color-9 position-fixed p-t-0">
+                <div class="flex flex-column items-start h-100 pd-8 ">
                     <!---filter head-->
-                    <div class="flex justify-btw wt-100">
+                    <div class="flex justify-btw wt-100 m-y-2">
                         <div class="text-s text-bold">
                             <span>Filter</span>
                         </div>
@@ -82,7 +82,8 @@
 
 
                     <!---filter-price-range-->
-                    <div class="wt-100">
+
+                    <div class="wt-100 m-y-2">
                         <div class="text-s text-bold">
                             <span>Price</span>
                         </div>
@@ -97,81 +98,307 @@
                     </div>
 
 
+
+
                     <!---filter with  categories-->
-                    <div>
-                        
-                    </div>
-                    <div class="text-s text-bold">
-                        <span>Categories</span>
-                    </div>
-                    <div>
-                        <div class="">
-                            <input type="checkbox" name="" id="">
-                            <label for="">Fruits</label>
+                    <div class="m-y-2">
+                        <div class="text-s text-bold">
+                            <span>Categories</span>
                         </div>
                         <div>
-                            <input type="checkbox" name="" id="">
-                            <label for="">Grains</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="" id="">
-                            <label for="">Egg & Meat</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="" id="">
-                            <label for="">Vegetables</label>
+                            <div class="">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Fruits</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="">
+                                <label for="">Grains</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="">
+                                <label for="">Egg & Meat</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="" id="">
+                                <label for="">Vegetables</label>
+                            </div>
                         </div>
                     </div>
+
 
                     <!---Ratings-->
-                    <div class="text-s text-bold">
-                        <span>Ratings</span>
-                    </div>
-                    <div>
-                        <div>
-                            <input type="radio" name="rating" id="">
-                            <label for="">4 stars & above</label>
+                    <div class="m-y-4">
+                        <div class="text-s text-bold">
+                            <span>Ratings</span>
                         </div>
                         <div>
-                            <input type="radio" name="rating" id="">
-                            <label for="">3 stars & above</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="rating" id="">
-                            <label for="">2 stars & above</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="rating" id="">
-                            <label for="">1 stars & above</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="rating" id="">
-                            <label for="">0 stars & above</label>
-                        </div>
+                            <div>
+                                <input type="radio" name="rating" id="">
+                                <label for="">4 stars & above</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="rating" id="">
+                                <label for="">3 stars & above</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="rating" id="">
+                                <label for="">2 stars & above</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="rating" id="">
+                                <label for="">1 stars & above</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="rating" id="">
+                                <label for="">0 stars & above</label>
+                            </div>
 
+                        </div>
                     </div>
+
                     <!---filter with sort-->
-                    <div class="text-s text-bold">
-                        <span>Sort by</span>
-                    </div>
-                    <div>
-                        <div>
-                            <input type="radio" name="price" id="">
-                            <label for="">Price - Low to High</label>
+                    <div class="m-y-4">
+                        <div class="text-s text-bold">
+                            <span>Sort by</span>
                         </div>
                         <div>
-                            <input type="radio" name="price" id="">
-                            <label for="">Price - High to Low</label>
+                            <div>
+                                <input type="radio" name="price" id="">
+                                <label for="">Price - Low to High</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="price" id="">
+                                <label for="">Price - High to Low</label>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>
-            <!---Product-content
-           <div class=" wt-80 bg-red-9">
-                 
+
+            <!---Product-content-->
+            <div class="wt-80 bg-black-3">
+                <div class="grid product-content pd-3">
+
+                    <!-- card 1-->
+                    <div class="flex flex-column bg-black-0 wt-100 position-rel">
+
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-solid fa-heart color-red-7"></i>
+                        </div>
+
+
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content"
+                                alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-red-7 text-dec ">Added
+                                    to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card-2-->
+                    <div class="flex flex-column bg-black-0 wt-100 position-rel">
+
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-regular fa-heart color-red-7"></i>
+                        </div>
+
+
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content"
+                                alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-black-5 text-dec ">Add
+                                    to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!---card 3-->
+                    <div class="flex flex-column bg-black-0 wt-100 position-rel">
+
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-regular fa-heart color-red-7"></i>
+
+                        </div>
+
+
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content"
+                                alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-black-5 text-dec ">Add
+                                    to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- card 4-->
+                    <div class="flex flex-column bg-black-0 wt-100 position-rel">
+
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-regular fa-heart color-red-7"></i>
+
+                        </div>
+
+
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content"
+                                alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-black-5 text-dec ">Add
+                                    to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- card 5-->
+                    <div class="flex flex-column bg-black-0 wt-100 position-rel">
+
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-regular fa-heart color-red-7"></i>
+
+                        </div>
+
+
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content"
+                                alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-black-5 text-dec ">Add
+                                    to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 6-->
+                    <div class="flex flex-column bg-black-0 wt-100 position-rel">
+
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-regular fa-heart color-red-7"></i>
+
+                        </div>
+
+
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content"
+                                alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-black-5 text-dec ">Add
+                                    to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- card 7-->
+                    <div class="flex flex-column bg-black-0 wt-100 position-rel">
+
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-regular fa-heart color-red-7"></i>
+
+                        </div>
+
+
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content"
+                                alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-black-5 text-dec ">Add
+                                    to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- card 8-->
+                     <div class="flex flex-column bg-black-0 wt-100 position-rel">
+                       
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-regular fa-heart color-red-7"></i>
+                           
+                        </div>
+                        
+                       
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content" alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-black-5 text-dec ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- card 9-->
+                     <div class="flex flex-column bg-black-0 wt-100 position-rel">
+                       
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-regular fa-heart color-red-7"></i>
+                           
+                        </div>
+                        
+                       
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content" alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-black-5 text-dec ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- card -10 -->
+                     <div class="flex flex-column bg-black-0 wt-100 position-rel">
+                       
+                        <div class="position-ab t-2 r-5">
+                            <i class="fa-regular fa-heart color-red-7"></i>
+                           
+                        </div>
+                        
+                       
+                        <div class="pd-4 bg-black-0 ">
+                            <img src="/css/image/Grain.jpg" class=" m-t-8 wt-100 h-100 rounded-xs object-content" alt="">
+                        </div>
+                        <div class="wt-100 m-t-8">
+                            <div class=" flex flex-column items-center wt-100 ">
+                                <span class="text-s text-bold">Grain</span>
+                                <small>Text Secondary</small>
+                                <a href="" class="wt-100 text-center pd-y-3 m-t-5 text-color-0 bg-black-5 text-dec ">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
             </div>
-           -->
+
 
         </main>
     </div>
