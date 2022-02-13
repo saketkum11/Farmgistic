@@ -1,0 +1,4 @@
+.cart-details{
+    grid-template-columns: 2fr 2fr;
+    gap: 2rem;
+}
