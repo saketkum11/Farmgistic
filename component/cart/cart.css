@@ -2,3 +2,9 @@
     grid-template-columns: 2fr 2fr;
     gap: 2rem;
 }
+.gap-1{
+    gap: 2rem;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
