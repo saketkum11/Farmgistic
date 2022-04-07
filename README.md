@@ -4,17 +4,17 @@
 
 <h3>Lists:</h3>
 
-<a href ="https://farmgistic.netlify.app/">Home Page</a>
+<a href ="https://farmstore.netlify.app/">Home Page</a>
 
-<a href ="https://farmgistic.netlify.app/component/product/product.html">Product Page</a>
+<a href ="https://farmstore.netlify.app/product">Product Page</a>
 
-<a href ="https://farmgistic.netlify.app/component/login/login.html">Login Page</a>
+<a href ="https://farmstore.netlify.app/login">Login Page</a>
 
-<a href ="https://farmgistic.netlify.app/component/signup/signup.html">Signup Page</a>
+<a href ="https://farmstore.netlify.app/signup">Signup Page</a>
 
-<a href ="https://farmgistic.netlify.app/component/wishlist/wishlist.html">WishList Page</a>
+<a href ="https://farmstore.netlify.app/wishlist">WishList Page</a>
 
-<a href ="https://farmgistic.netlify.app/component/cart/cart.html">Cart Page</a>
+<a href ="https://farmstore.netlify.app/cart">Cart Page</a>
 
 ![image](https://user-images.githubusercontent.com/46194436/154861621-6bd2dede-8569-498a-a742-a25770309414.png)
 ![image](https://user-images.githubusercontent.com/46194436/154861696-e8333def-48f9-4c9e-98bd-89db944da375.png)
